@@ -8,7 +8,7 @@ terraform {
 
 provider "google" {
   project = "grey-sort-challenge"
-  region = "australia-southeast1-a"
+  region = "australia-southeast1-b"
 }
 
 resource "google_storage_bucket" "funky-bucket" {
